@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+    width: 100%
+}
+
+table thead tr th {
+    /* Background color */
+    background-color: #ddd;
+
+    /* Stick to the top */
+    position: sticky;
+    top: 0;
+
+    /* Displayed on top of other rows when scrolling */
+    z-index: 9999;
+}
+
+th, td {
+    border: #4444 1px solid;
+}
+
+td {
+    text-align: center;
+}
